@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .plus__task_img {
+    width: 30px;
+  }
+  
+  .plus__task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .title__name{
+    color: rgb(85, 47, 1);
+  }
