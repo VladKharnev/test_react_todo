@@ -1,0 +1,41 @@
+.info_task{
+    color: rgb(85, 47, 1);
+    margin-right: 20px;
+}
+.list__tasks{
+    list-style-type: none;
+}
+input{
+    margin-right: 20px;
+}
+.btn__close{
+    border: 1px solid red;
+    color: red;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-bottom: 1px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4px;
+    margin-bottom: 5px;
+}
+.btn__compl{
+    background-color: rgb(144, 47, 255);
+    color: wheat;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.complt{
+    border: 1px green solid;
+    border-radius: 5px;
+}

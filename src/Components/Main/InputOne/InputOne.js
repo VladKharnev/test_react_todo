@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './style.module.scss'
 
-export default function Input({onChange}) {
+export default function InputOne({onChange}) {
 
     const handleValueChange = (event) => {
         onChange(event.target.value)
@@ -9,7 +9,7 @@ export default function Input({onChange}) {
 
   return (  
     <>
-        <input type="text" className={style.add__text} onChange={handleValueChange} placeholder="Новая задача"/>
+        <input type="text" className={style.add__text} onChange={(handleValueChange)} placeholder="Новая задача"/>
     </>
   )
 }
